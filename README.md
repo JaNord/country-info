@@ -1,4 +1,7 @@
-This is a simple React app that let's you view information about different countries. API used for fetching the countries and information about them: https://restcountries.eu/
+Simple React app that let's you view information about different countries. API used for fetching the countries and information about them: https://restcountries.eu/
+<br />
+This application was created as a part of the course https://fullstackopen.com/en/
+
 
 ## Set up the project
 
