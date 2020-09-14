@@ -23,7 +23,9 @@ const CountryInfo = () => {
   const handleFilterChange = (event) => {
     setFilter(event.target.value)
   }
-
+  const handleShowCountryClick = (name) => {
+    setFilter(name)
+  }
   const countriesToShow = () => (
     countries.filter(country => {
       return country.name.match(new RegExp(filter, "i"))
@@ -36,7 +38,9 @@ const CountryInfo = () => {
         search for a country: <Filter value={ filter } handleChange={ handleFilterChange }/>
       </div>
       <div>
-        <CountryList countries={ countriesToShow() } />
+        <CountryList
+          countries={ countriesToShow() }
+          handleClick={ handleShowCountryClick }/>
       </div>
     </>
   )

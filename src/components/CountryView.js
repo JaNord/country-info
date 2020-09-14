@@ -1,8 +1,8 @@
 import React from "react"
 
-const CountryView = ({country}) => {
+const CountryView = ({ country }) => {
     return (
-        <>  
+        <>
         <h2>{ country.name }</h2>
 
         <img
