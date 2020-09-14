@@ -1,7 +1,9 @@
 Simple React app that let's you view information about different countries. API used for fetching the countries and information about them: https://restcountries.eu/
 <br />
 This application was created as a part of the course https://fullstackopen.com/en/
+<br />
 
+Live version can be fund on: https://janord.github.io/country-info/
 
 ## Set up the project
 
